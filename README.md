@@ -1,6 +1,6 @@
 # Cookiecutter Data Science
 
-_A standardized project structure for doing and sharing data science project at Comunidade DS._
+_A standardized project structure for doing and sharing data science projects.
 
 ### Requirements to use the cookiecutter template:
 -----------
@@ -22,7 +22,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter https://gitlab.com/datascience-community/cookiecutter-comunidadeds
+    cookiecutter https://github.com/LucasBMedeiros/cookiecutter
 
 
 ### The directory structure
@@ -42,6 +42,8 @@ The directory structure of your new project looks like this:
 │
 ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
 │
+├── img                <- Image arquives.
+|
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
